@@ -1,0 +1,17 @@
+﻿@model SearchEngineAutomation.Models.FormModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Please enter your search:</h2>
+<form method="post" action="">
+    Keywords:<br />
+    <input type="text" name="Keywords" value="" /><br />
+    Url to filter by:<br />
+    <input type="text" name="Url" value="" /><br /><br />
+    <input type="submit" value="Search" class="submit" />
+</form>
+
